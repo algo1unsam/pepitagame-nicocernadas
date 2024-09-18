@@ -9,7 +9,7 @@ program PepitaGame {
 	game.height(10)
 	game.width(10)
 	game.boardGround("fondo2.jpg")
-
+	//Con ctrl podemos ver a donde va
 	tutorial1.iniciar()
 
 	game.showAttributes(pepita) //Debug
