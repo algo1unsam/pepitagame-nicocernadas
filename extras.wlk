@@ -1,5 +1,5 @@
-import pepita.*
 import wollok.game.*
+import pepita.*
 
 object nido {
 
@@ -13,11 +13,10 @@ object nido {
 	}
 }
 
-
 object silvestre {
 
 	method image() = "silvestre.png"
 
-	method position() = game.origin()
+	method position() = game.at(pepita.position().x(), 0)
 	
 }
